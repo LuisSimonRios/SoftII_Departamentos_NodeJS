@@ -3,9 +3,9 @@ POST http://localhost:3000/api/v1/people/person HTTP/1.1
 Content-Type: application/json
 
 {
-  "name":"Brayan",
-  "lastname":"Ocampo",
-  "age": "20",
+  "name":"Simon",
+  "lastname":"Rios",
+  "age": "23",
   "address":{
     "city":"Manizales",
     "code_zip":"170002"
@@ -23,11 +23,11 @@ PUT http://localhost:3000/api/v1/people/622cd13adbeaf7b67bc5cee1 HTTP/1.1
 Content-Type: application/json
 
 {
-  "name":"Brayayin",
-  "lastname":"Ocampo",
-  "age": "20",
+  "name":"Saimon",
+  "lastname":"Rios",
+  "age": "22",
   "address":{
-    "city":"Bogota",
+    "city":"Pereira",
     "code_zip":"110001"
   }
 }
